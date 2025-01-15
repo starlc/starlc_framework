@@ -1,32 +1,60 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+## IntelliJ IDEA ##
+.idea/
+/*.iml
+*.iml
+*.ipr
+*.iws
 
-### STS ###
+## DUBBO ##
+.metadata/
+
+##MAVEN##
+dependency-reduced-pom.xml
+
+## Package Files ##
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+## LOG ##
+*.log
+
+## JRebel ##
+rebel.xml
+
+## MAC ##
+.DS_Store
+
+## STS ##
 .apt_generated
 .classpath
 .factorypath
 .project
+.settings/
 .settings
 .springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
+## JDK ##
+*.class
+*.lock
+*.swp
+*.out
+target/
+**/bin/*
+/out/
+*.bak
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+## Cache or Tmp ##
+*.cache
+*.diff
+*.patch
+*.tmp
+hs_err_pid*
 
-### VS Code ###
-.vscode/
+## Maven ignore ##
+.flattened-pom.xml
+**/.flattened-pom.xml
+**/*/.flattened-pom.xml
